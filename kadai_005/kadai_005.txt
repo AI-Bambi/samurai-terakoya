@@ -1,0 +1,31 @@
+Aya Iwamoto@DESKTOP-GG3S7SS MINGW64 ~/git_tutorial/kadai (main)
+$ git init git_challenge
+Initialized empty Git repository in C:/Users/Aya Iwamoto/git_tutorial/kadai/git_challenge/.git/
+
+Aya Iwamoto@DESKTOP-GG3S7SS MINGW64 ~/git_tutorial/kadai (main)
+$ git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+
+Aya Iwamoto@DESKTOP-GG3S7SS MINGW64 ~/git_tutorial/kadai (main)
+$ cd git_challenge
+
+Aya Iwamoto@DESKTOP-GG3S7SS MINGW64 ~/git_tutorial/kadai/git_challenge (main)
+$ git add hello_world.txt
+
+Aya Iwamoto@DESKTOP-GG3S7SS MINGW64 ~/git_tutorial/kadai/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) 75fb744] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+Aya Iwamoto@DESKTOP-GG3S7SS MINGW64 ~/git_tutorial/kadai/git_challenge (main)
+$ git commit -m "日本語訳を追加"
+[main df40ead] 日本語訳を追加
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Aya Iwamoto@DESKTOP-GG3S7SS MINGW64 ~/git_tutorial/kadai/git_challenge (main)
+$ git log --oneline
+df40ead (HEAD -> main) 日本語訳を追加
+75fb744 hello_world.txtを追加
+
+
